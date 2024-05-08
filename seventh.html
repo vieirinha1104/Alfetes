@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soluções Tecnológicas</title>
+<style>
+        .menu-bar{
+        background-color: rgba(0,0,0,0.6);
+        text-align: center;
+    }
+    .menu-bar ul{
+        display: inline-flex;
+        list-style: none;
+        color: azure;
+    }
+    .menu-bar ul li{
+        width: 240px;
+        margin: 5px;
+        padding: 15px;
+        font-size: 18px;
+    }
+    .menu-bar ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    .menu-bar ul li :hover{
+        color: orange;
+        border-radius: 3px;
+    }
+    .menu-bar .fa{
+        margin-right: 8px;
+    }
+    .sub-menu-1{
+        display: none;
+    }
+    .menu-bar ul li:hover .sub-menu-1{
+        display: block;
+        position: absolute;
+        background: rgba(0,0,0,0.6);
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .menu-bar ul li:hover .sub-menu-1 ul{
+        display: block;
+        margin: 10px;
+    }
+    .menu-bar ul li:hover .sub-menu-1 ul li{
+        width: 150px;
+        padding: 10px;
+        border-bottom: 1px dotted #fff;
+        background: transparent;
+        border-radius: 0;
+        text-align: left;
+    }
+    .menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+        border-bottom: none
+    }
+    .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+        color: orange;
+    }
+    .fa-angle-right{
+        float: right;
+    }
+    .sub-menu-2{
+        display: none;
+    }
+    .hover-me:hover .sub-menu-2{
+        position: absolute;
+        display: block;
+        margin-top: -40px;
+        margin-left: 140px;
+        background-color: rgba(0,0,0,0.6);
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #ff494962;
+    }
+    .container {
+        max-width: 800px;
+        margin: 50px auto;
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.9); /* Fundo branco com transparência */
+        border-radius: 10px; /* Cantos arredondados */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    }
+    .blur-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Fundo cinza com transparência */
+        backdrop-filter: blur(5px); /* Efeito de desfoque */
+        z-index: 999; /* Certifique-se de que está sobreposta a outras camadas */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1 {
+        font-size: 36px;
+        color: #333;
+    }
+    img {
+        max-width: 75%;
+        height: auto;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    p {
+        font-size: 18px;
+        color: #666;
+        line-height: 1.6;
+        margin-top: 20px;
+        text-align: justify;
+    }
+    a {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+</style>
+</head>
+<body>
+    <div class="menu-bar">
+        <ul>
+            <li> <a href="index.html"><i class="fa fa-home"></i>Home</a> </li>
+            <li> <a href="team.html"><i class="fa fa-home"></i>Equipe</a> </li>
+            <li> <a href="first.html"><i class="fa fa-home"></i>Nosso tema</a> </li>
+            <li> <a href="second.html"><i class="fa fa-home"></i>Mudanças Climáticas e Perda de Diversidade</a> </li>
+            <li> <a href="third.html"><i class="fa fa-user"></i>Soluções Tecnológicas</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="fourth.html">Biologia Sintética e Biorremediação</a></li>
+                        <li><a href="fifth.html">Corredor Ecológico e Monitoriamento Remoto</a></li>
+                        <li><a href="sixth.html">Conservação: ex-situ</a></li>
+                        <li><a href="seventh.html">Branqueamento dos Corais</a></li>
+                        <li><a href="eighth.html">Energia Sustentável</a></li>
+                        <li><a href="ninth.html">Algumas Tecnologias</a></li>
+                        <li><a href="https://www.footprintcalculator.org/sponsor/wb/wb_pt">Calcule sua Pegada Ecológica</a></li>
+                    </ul>
+                </div>
+
+    </div>
+
+<div class="container">
+    <br></br>
+    <h1>Branqueamento dos Corais:</h1>
+    <br></br>
+    <p>
+        Aqui será falado como o ambiente aquático é afetado pelos problemas apresentados. 
+        Como exemplo, o branqueamento dos corais é um fenômeno que afeta os ecossistemas marinhos em todo o mundo. Os corais são essenciais para a preservação dos ecossistemas aquáticos por servirem de abrigo e alimento para inúmeras espécies. Esses animais construtores de recifes, possuem uma relação simbiótica com algas chamadas zooxantelas. Essas algas vivem nos tecidos dos corais e fornecem a eles nutrientes essenciais através da fotossíntese. Entretanto, quando as condições ambientais se tornam extremas, como o aumento da temperatura da água devido às mudanças climáticas, os corais expulsam as zooxantelas, resultando no branqueamento dos corais. 
+        Uma consequência  do branqueamento dos corais são a maior vulnerabilidade desses animais à doenças, podendo eventualmente morrer e causar danos ao ecossistema local. 
+        Para lidar com esse problema crescente, várias soluções estão sendo propostas e implementadas. Uma delas é o conceito de nuvens artificiais, também conhecidas como "branqueamento solar". Essa técnica envolve a dispersão de aerossóis na atmosfera, que refletem parte da luz solar de volta ao espaço, reduzindo assim a temperatura da água do mar. Essa proposta é uma tentativa de reduzir os efeitos do aquecimento global nos recifes de corais . A ideia é que a pulverização de sal na atmosfera possa encorajar a formação de gotículas maiores, resultando em nuvens maiores e mais densas.
+        Além das nuvens artificiais, as iniciativas de restauração de corais também desempenham um papel essencial na proteção dos recifes de corais. Essas estratégias incluem o cultivo de corais em viveiros marinhos e o transplante desses corais saudáveis para áreas danificadas. Outras técnicas de restauração incluem a instalação de estruturas artificiais para promover o crescimento de novos corais e a remoção de espécies invasoras que prejudicam os recifes. 
+        Em resumo, as mudanças climáticas vêm afetando diretamente a vida aquática, e o branqueamento dos corais é um exemplo dessa perda de biodiversidade e quebra de relações interespecíficas entre os animais. Os danos são muitos, como o derretimento de geleiras, alterações na cadeia alimentar, prejudicando inclusive, a pesca.
+    </p>
+    <br></br>
+</div>
+
+</body>
+</html>

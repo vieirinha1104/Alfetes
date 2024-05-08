@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soluções Tecnológicas</title>
+<style>
+        .menu-bar{
+        background-color: rgba(0,0,0,0.6);
+        text-align: center;
+    }
+    .menu-bar ul{
+        display: inline-flex;
+        list-style: none;
+        color: azure;
+    }
+    .menu-bar ul li{
+        width: 240px;
+        margin: 5px;
+        padding: 15px;
+        font-size: 18px;
+    }
+    .menu-bar ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    .menu-bar ul li :hover{
+        color: orange;
+        border-radius: 3px;
+    }
+    .menu-bar .fa{
+        margin-right: 8px;
+    }
+    .sub-menu-1{
+        display: none;
+    }
+    .menu-bar ul li:hover .sub-menu-1{
+        display: block;
+        position: absolute;
+        background: rgba(0,0,0,0.6);
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .menu-bar ul li:hover .sub-menu-1 ul{
+        display: block;
+        margin: 10px;
+    }
+    .menu-bar ul li:hover .sub-menu-1 ul li{
+        width: 150px;
+        padding: 10px;
+        border-bottom: 1px dotted #fff;
+        background: transparent;
+        border-radius: 0;
+        text-align: left;
+    }
+    .menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+        border-bottom: none
+    }
+    .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+        color: orange;
+    }
+    .fa-angle-right{
+        float: right;
+    }
+    .sub-menu-2{
+        display: none;
+    }
+    .hover-me:hover .sub-menu-2{
+        position: absolute;
+        display: block;
+        margin-top: -40px;
+        margin-left: 140px;
+        background-color: rgba(0,0,0,0.6);
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #ff494962;
+    }
+    .container {
+        max-width: 800px;
+        margin: 50px auto;
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.9); /* Fundo branco com transparência */
+        border-radius: 10px; /* Cantos arredondados */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    }
+    .blur-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Fundo cinza com transparência */
+        backdrop-filter: blur(5px); /* Efeito de desfoque */
+        z-index: 999; /* Certifique-se de que está sobreposta a outras camadas */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1 {
+        font-size: 36px;
+        color: #333;
+    }
+    img {
+        max-width: 75%;
+        height: auto;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    p {
+        font-size: 18px;
+        color: #666;
+        line-height: 1.6;
+        margin-top: 20px;
+        text-align: justify;
+    }
+    a {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+</style>
+</head>
+<body>
+    <div class="menu-bar">
+        <ul>
+            <li> <a href="index.html"><i class="fa fa-home"></i>Home</a> </li>
+            <li> <a href="team.html"><i class="fa fa-home"></i>Equipe</a> </li>
+            <li> <a href="first.html"><i class="fa fa-home"></i>Nosso tema</a> </li>
+            <li> <a href="second.html"><i class="fa fa-home"></i>Mudanças Climáticas e Perda de Diversidade</a> </li>
+            <li> <a href="third.html"><i class="fa fa-user"></i>Soluções Tecnológicas</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="fourth.html">Biologia Sintética e Biorremediação</a></li>
+                        <li><a href="fifth.html">Corredor Ecológico e Monitoriamento Remoto</a></li>
+                        <li><a href="sixth.html">Conservação: ex-situ</a></li>
+                        <li><a href="seventh.html">Branqueamento dos Corais</a></li>
+                        <li><a href="eighth.html">Energia Sustentável</a></li>
+                        <li><a href="ninth.html">Algumas Tecnologias</a></li>
+                        <li><a href="https://www.footprintcalculator.org/sponsor/wb/wb_pt">Calcule sua Pegada Ecológica</a></li>
+                    </ul>
+                </div>
+
+    </div>
+
+<div class="container">
+    <br></br>
+    <h1>Biologia Sintética e Biorremediação</h1>
+    <br></br>
+    <p>
+        A agricultura enfrenta desafios que prejudicam a preservação da biodiversidade como pragas, doenças e degradação do solo. 
+        A biologia sintética pode criar plantas resistentes a pragas e doenças, enquanto a biorremediação pode ajudar a restaurar solos e ambientes aquáticos contaminados. Por exemplo, microrganismos geneticamente modificados podem degradar poluentes no solo, promovendo a recuperação ambiental. Juntas, essas abordagens têm o potencial de melhorar a sustentabilidade e a produtividade agrícola, reduzindo o impacto negativo no meio ambiente.
+    </p>
+    <p>1. BIOLOGIA SINTÉTICA: 
+        O processo geralmente envolve identificar genes de interesse, modificá-los em laboratório e, em seguida, inseri-los nas plantas. 
+        
+        A Biologia Sintética, em franca expansão nos dias de hoje, consiste no uso de bioinformática e técnicas de engenharia genética e bioquímica com o objetivo de desenhar circuitos biológicos modulares, por meio do redirecionamento ou construção de novas rotas metabólicas e a criação de organismos artificiais, visando maximizar o seu funcionamento. Não se trata de uma técnica específica, mas de um conceito que pode utilizar diferentes abordagens de edição genômica para alcançar a meta final.
+        
+        As diferentes áreas da Biologia Sintética de plantas, seus objetivos e aplicações podem ser resumidos como a seguir: 
+        a) síntese de DNA com o objetivo de criar novos genes ou genomas completos visando produzir novas proteínas não existentes na natureza; (NOVOS MÉTODOS DE FOTOSSÍNTESE)
+         b) engenharia metabólica objetivando desenhar e implementar funções novas ou alteradas para obtenção de produtos específicos; (REMÉDIOS…)
+        c) genoma mínimo para redesenhar ou criar novos organismos contendo apenas genes essenciais para estudos e criação de organismos modelo com funções otimizadas; 
+        d) protocélula para criar modelos bioquímicos simplificados de células para produção de moléculas em grande escala, com economia de energia e livre de contaminações; 
+        e) xenobiologia (estudo da vida em circunstâncias não convencionais, isto é, artificiais),  essa subárea objetiva gerar alterações no código genético por meio de alterações da composição química de bases do DNA e aminoácidos das proteínas, portanto criando sistemas biológicos artificiais exibindo funções novas não encontradas na natureza e que não podem ser extintos facilmente.
+    </p>
+    <p>
+        2- BIORREMEDIAÇÃO
+A biorremediação pode ser realizada de duas formas: “in situ”, no local onde ocorreu a contaminação, ou “ex situ”, quando a porção contaminada do solo ou da água são levados para tratamento em outro lugar ou outro organismo. Existem diversas maneiras de implementar a biorremediação nos processos agrícolas. Entre elas, estão:
+
+Bioestimulação: na bioestimulação, o objetivo é aumentar a atividade microbiana da população nativa do solo. Isso é possível com a adição de nutrientes como nitrogênio e fósforo. Além disso, podem ser utilizados surfactantes ou tensoativos, substâncias que aumentam a biodisponilidade do material contaminante para que os microrganismos possam degradá-lo. Parte da bioestimulação também consiste em promover melhorias em parâmetros como a aeração do solo e monitorar e corrigir a umidade e o pH do solo.
+
+Bioaumentação: na bioaumentação, são introduzidos microrganismos cultivados dentro do ecossistema natural contaminado. Esses microrganismos degradam as cadeias de hidrocarbonetos do material contaminante, transformando em fonte de carbono e reduzindo a sua concentração ao longo do tempo.
+
+Fitorremediação: na fitorremediação, é utilizado um sistema vegetal e sua microbiota para acelerar o processo de degradação do material contaminante. Porém, é preciso que a planta seja específica para aquele contaminante, além de observar características como boa capacidade de absorção, sistema radicular profundo, taxa de crescimento acelerada e resistência ao material poluente.
+
+Bioventilação ou bioaeração: na bioventilação, é adicionado oxigênio no solo contaminado, para estimular o crescimento dos microrganismos naturais presentes no sistema ou que tenham sido introduzidos nele. Essa técnica de biorremediação tem a vantagem de poder ser implementada facilmente e atuar em locais de difícil acesso. Entretanto, tem eficácia limitada em solos com baixa umidade, pouca permeabilidade ou quando o contaminante não se degrada em meio aeróbio.
+Com a biorremediação e com a biologia sintética  podemos desenvolver um meio ambiente mais sustentável.
+    </p>
+    <br></br>
+</div>
+
+</body>
+</html>

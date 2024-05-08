@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soluções Tecnológicas</title>
+<style>
+        .menu-bar{
+        background-color: rgba(0,0,0,0.6);
+        text-align: center;
+    }
+    .menu-bar ul{
+        display: inline-flex;
+        list-style: none;
+        color: azure;
+    }
+    .menu-bar ul li{
+        width: 240px;
+        margin: 5px;
+        padding: 15px;
+        font-size: 18px;
+    }
+    .menu-bar ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    .menu-bar ul li :hover{
+        color: orange;
+        border-radius: 3px;
+    }
+    .menu-bar .fa{
+        margin-right: 8px;
+    }
+    .sub-menu-1{
+        display: none;
+    }
+    .menu-bar ul li:hover .sub-menu-1{
+        display: block;
+        position: absolute;
+        background: rgba(0,0,0,0.6);
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .menu-bar ul li:hover .sub-menu-1 ul{
+        display: block;
+        margin: 10px;
+    }
+    .menu-bar ul li:hover .sub-menu-1 ul li{
+        width: 150px;
+        padding: 10px;
+        border-bottom: 1px dotted #fff;
+        background: transparent;
+        border-radius: 0;
+        text-align: left;
+    }
+    .menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+        border-bottom: none
+    }
+    .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+        color: orange;
+    }
+    .fa-angle-right{
+        float: right;
+    }
+    .sub-menu-2{
+        display: none;
+    }
+    .hover-me:hover .sub-menu-2{
+        position: absolute;
+        display: block;
+        margin-top: -40px;
+        margin-left: 140px;
+        background-color: rgba(0,0,0,0.6);
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #ff494962;
+    }
+    .container {
+        max-width: 800px;
+        margin: 50px auto;
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.9); /* Fundo branco com transparência */
+        border-radius: 10px; /* Cantos arredondados */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    }
+    .blur-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Fundo cinza com transparência */
+        backdrop-filter: blur(5px); /* Efeito de desfoque */
+        z-index: 999; /* Certifique-se de que está sobreposta a outras camadas */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1 {
+        font-size: 36px;
+        color: #333;
+    }
+    img {
+        max-width: 75%;
+        height: auto;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    p {
+        font-size: 18px;
+        color: #666;
+        line-height: 1.6;
+        margin-top: 20px;
+        text-align: justify;
+    }
+    a {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+</style>
+</head>
+<body>
+    <div class="menu-bar">
+        <ul>
+            <li> <a href="index.html"><i class="fa fa-home"></i>Home</a> </li>
+            <li> <a href="team.html"><i class="fa fa-home"></i>Equipe</a> </li>
+            <li> <a href="first.html"><i class="fa fa-home"></i>Nosso tema</a> </li>
+            <li> <a href="second.html"><i class="fa fa-home"></i>Mudanças Climáticas e Perda de Diversidade</a> </li>
+            <li> <a href="third.html"><i class="fa fa-user"></i>Soluções Tecnológicas</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="fourth.html">Biologia Sintética e Biorremediação</a></li>
+                        <li><a href="fifth.html">Corredor Ecológico e Monitoriamento Remoto</a></li>
+                        <li><a href="sixth.html">Conservação: ex-situ</a></li>
+                        <li><a href="seventh.html">Branqueamento dos Corais</a></li>
+                        <li><a href="eighth.html">Energia Sustentável</a></li>
+                        <li><a href="ninth.html">Algumas Tecnologias</a></li>
+                        <li><a href="https://www.footprintcalculator.org/sponsor/wb/wb_pt">Calcule sua Pegada Ecológica</a></li>
+                    </ul>
+                </div>
+
+    </div>
+
+<div class="container">
+    <br></br>
+    <h1>Corredor Ecológico e Monitoramento Remoto:</h1>
+    <br></br>
+    <p>
+        O desmatamento é um problema global que consiste na remoção da vegetação nativa de uma área, causado principalmente pela atuação humana e ele tem sérias consequências para o meio ambiente, incluindo a perda de biodiversidade e a contribuição para as mudanças climáticas.
+    Uma estratégia vital para mitigar seus efeitos é a criação de Corredores ecológicos ou corredores de biodiversidade são áreas que unem remanescentes florestais ou unidades de conservação fragmentadas devido à ação do homem, permitindo que organismos possam se deslocar entre elas, aumentando o fluxo gênico entre as populações e mitigando, assim, os efeitos causados por esses processos de fragmentação. 
+    Mas, para monitorar eficazmente essas áreas e detectar atividades ilegais de desmatamento, o uso de tecnologias de monitoramento remoto é essencial. Isso inclui imagens de satélite de alta resolução, drones e sensores terrestres que fornecem dados em tempo real sobre mudanças na cobertura vegetal. Essas informações são cruciais para identificar áreas de desmatamento ilegal, mas, além disso, pode também rastrear o progresso das iniciativas de reflorestamento e restauração, garantindo que os corredores ecológicos continuem a cumprir seu papel vital na conservação da biodiversidade.
+    Um outro exemplo de como a tecnologia está sendo usada para combater o desmatamento é o aplicativo ECOSIA. O ECOSIA é um mecanismo de busca, como o google, que financia projetos de reflorestamento em todo o mundo com os lucros gerados pelos anúncios de pesquisa. Eles usam o dinheiro arrecadado para plantar árvores em áreas afetadas pelo desmatamento, ajudando a restaurar ecossistemas, promover a biodiversidade e combater as mudanças climáticas. Hoje em dia, mais de 206 MILHÕES de árvores já foram plantadas através dele.
+    Em resumo, o desmatamento é um desafio complexo, mas soluções inovadoras como corredores ecológicos, monitoramento remoto e aplicativos como o ECOSIA estão desempenhando um papel crucial na proteção da natureza.
+    </p>
+    <br></br>
+</div>
+
+</body>
+</html>
